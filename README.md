@@ -1,37 +1,45 @@
 # Cybersecurity, RMF & GRC Portfolio
 
-Welcome to my cybersecurity portfolio. This repository documents my transition into cybersecurity, Risk Management Framework (RMF), governance, risk, and compliance (GRC), and information assurance through hands-on projects, technical labs, and security documentation samples.
+## Overview
 
-My professional background is in operations leadership, governance, training, documentation, and process execution in regulated environments. I am currently building technical depth through my B.S. in Cybersecurity and Information Assurance, certification study, and portfolio projects that demonstrate security documentation, control mapping, risk tracking, and continuous monitoring support.
+This repository contains a portfolio of mock cybersecurity, RMF, GRC, and information assurance projects created to demonstrate practical documentation, risk management, control tracking, remediation planning, and continuous monitoring concepts.
 
-## Current Focus
+The purpose of this portfolio is to showcase structured, professional work products that reflect how security documentation and governance activities may be organized in a real-world environment. The projects in this repository are demonstration artifacts created for learning and portfolio use only.
 
-- Risk Management Framework (RMF)
-- Governance, Risk, and Compliance (GRC)
-- Security documentation and audit readiness
-- POA&M tracking and remediation support
-- Security controls and continuous monitoring
-- Networking, Linux, and cybersecurity foundations
+## Portfolio Focus
 
-## Featured Projects
+This portfolio is designed to highlight strengths in:
+- Risk Management Framework (RMF)-aligned documentation
+- Governance, risk, and compliance (GRC) concepts
+- Control implementation tracking
+- Evidence organization and audit-ready documentation
+- POA&M development and remediation tracking
+- Continuous monitoring, reporting, and escalation
+- Supporting technical foundations in networking
 
-### 1. RMF System Package Demo
-A mock RMF documentation package for a sample information system. This project demonstrates how security requirements, control implementation notes, evidence tracking, and monitoring documentation can be organized in a structured, assessment-ready way.
+## Repository Structure
 
-### 2. POA&M Tracker Template
-A sample Plan of Action and Milestones (POA&M) tracker showing how security findings, owners, due dates, severity, remediation steps, and status updates can be documented and managed.
+### `rmf-system-package-demo/`
+A mock RMF-style documentation package showing how system overview information, SSP-style summaries, control implementation notes, evidence indexing, and continuous monitoring concepts can be organized.
 
-### 3. Continuous Monitoring Playbook
-A lightweight playbook outlining how security controls, findings, changes, and recurring review activities can be tracked over time to support ongoing RMF monitoring.
+### `poam-tracker-template/`
+A sample Plan of Action and Milestones (POA&M) project demonstrating how identified weaknesses can be documented, assigned, prioritized, tracked, and followed through remediation.
 
-## Technical Foundations
+### `continuous-monitoring-playbook/`
+A mock continuous monitoring project showing how recurring review activities, monitoring cadence, reporting, and escalation concepts can be structured in an RMF-aligned environment.
 
-This repository also includes supporting work in:
-- Networking labs and subnetting exercises
-- Security+ and cybersecurity study notes
-- Systems and requirements documentation
-- Process and operations analysis artifacts
+### `technical-foundations/networking/`
+Supporting technical artifacts related to networking fundamentals, including subnetting and foundational network concepts that support broader cybersecurity understanding.
 
-## Portfolio Goal
+## Purpose of the Projects
 
-This portfolio is designed to demonstrate practical, documentation-centered cybersecurity skills that align with RMF Analyst, Cyber Audit, GRC, and Information Assurance roles.
+These projects are intended to demonstrate:
+- Clear security documentation practices
+- Structured risk and remediation thinking
+- Familiarity with control-based security work
+- Ability to organize audit-ready artifacts
+- Practical alignment with cybersecurity analyst, RMF, GRC, and information assurance roles
+
+## Notes
+
+All systems, findings, documentation examples, and scenarios in this repository are fictional and created for educational and portfolio purposes only. Nothing in this repository represents a real organization, real environment, or official authorization package.
