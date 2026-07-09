@@ -9,7 +9,24 @@
 
 This enterprise-grade portfolio anchors an engineered lifecycle demonstration showcasing absolute proficiency in the **NIST Risk Management Framework (RMF)** under **NIST SP 800-37 Rev. 2**, control allocation parameters via **NIST SP 800-53 Rev. 5**, and baseline corporate GRC operations. 
 
-Rather than isolated compliance checkpoints, this repository serves as a sanitized architectural registry modeling how a high-stakes, multi-tenant cloud environment—the **Records Management Support Platform (RMSP)**—is systematically cataloged, architected at the network perimeter, assessed against security objectives, and governed via a continuous automated verification lifecycle.
+
+This repository serves as a sanitized architectural registry modeling how a high-stakes, multi-tenant cloud environment—the **Records Management Support Platform (RMSP)**—is systematically cataloged, architected at the network perimeter, assessed against security objectives, and governed via a continuous automated verification lifecycle.
+
+---
+
+## 🗺️ Program Lifecycle Architecture Map
+
+This diagram illustrates how the four primary repository modules interlock to form an end-to-end security governance loop:
+
+```text
+[4th Folder: Infrastructure Zone Map] ➔ Enforces boundaries and network architecture (192.168.1.0/26)
+               ⬇
+[1st Folder: Enterprise SSP Brief] ➔ Captures FIPS impact bounds & NIST SP 800-53 Matrix
+               ⬇
+[2nd Folder: Active Risk Ledger]   ➔ Ingests control variances into live POA&M lifecycle loops
+               ⬇
+[3rd Folder: ISCM Governance Playbook] ➔ Implements continuous monitoring schedules & senior escalations
+
 
 ---
 
