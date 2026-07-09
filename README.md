@@ -16,18 +16,33 @@ This repository serves as a sanitized architectural registry modeling how a high
 
 ## 🗺️ Program Lifecycle Architecture Map
 
-This diagram illustrates how the four primary repository modules interlock to form an end-to-end security governance loop:
+This diagram illustrates how the four repository modules interlock to form an end-to-end security governance loop:
 
 ```text
-[4th Folder: Infrastructure Zone Map] ➔ Enforces boundaries and network architecture (192.168.1.0/26)
-               ⬇
-[1st Folder: Enterprise SSP Brief] ➔ Captures FIPS impact bounds & NIST SP 800-53 Matrix
-               ⬇
-[2nd Folder: Active Risk Ledger]   ➔ Ingests control variances into live POA&M lifecycle loops
-               ⬇
-[3rd Folder: ISCM Governance Playbook] ➔ Implements continuous monitoring schedules & senior escalations
+┌──────────────────────────────────────────────────────────────┐
+│  4. Infrastructure Zone Mapping                              │
+│  (Enforces Boundaries & Network Architecture)                │
+└──────────────┬───────────────────────────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────────────────────────┐
+│  1. Enterprise SSP Authorization Brief                       │
+│  (FIPS 199 Categorization & NIST 800-53 Control Matrix)      │
+└──────────────┬───────────────────────────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────────────────────────┐
+│  2. Active Risk Remediation Ledger                           │
+│  (Ingests Variances into POA&M Lifecycle Loops)              │
+└──────────────┬───────────────────────────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────────────────────────┐
+│  3. ISCM Governance Playbook                                 │
+│  (Continuous Monitoring, Metrics & Executive Escalations)    │
+└──────────────────────────────────────────────────────────────┘
 
-
+```
 ---
 
 ## 📂 Interlocking Case Study Repository Structure
